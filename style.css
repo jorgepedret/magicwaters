@@ -101,7 +101,21 @@ h2{
   text-transform:uppercase;letter-spacing:0.12em;font-size:0.78rem;
   font-weight:700;color:var(--water);margin:0 0 10px;
 }
-.section-intro{max-width:62ch;font-size:1.08rem;color:var(--ink-soft);}
+.section-intro{max-width:62ch;font-size:1.08rem;color:var(--ink-soft);margin:0 0 12px;}
+.two-col p{margin:0 0 12px;}
+.two-col p:last-child{margin-bottom:0;}
+
+.friday-special{
+  margin-top:44px;
+  background:#fff;
+  border:1px solid rgba(0,0,0,0.06);
+  border-left:4px solid var(--fire);
+  border-radius:14px;
+  padding:24px 26px;
+}
+.friday-special p{margin:0 0 8px;}
+.friday-special p:last-child{margin-bottom:0;}
+.friday-special .section-kicker{margin-bottom:12px;}
 .two-col{
   display:grid;grid-template-columns:1.1fr 1fr;gap:48px;align-items:start;
 }
@@ -149,7 +163,8 @@ blockquote.voice{
 }
 .resource-box .text{flex:1 1 320px;}
 .resource-box h2{color:#fff;}
-.resource-box p{color:#dfe4ea;}
+.resource-box p{color:#dfe4ea;margin:0 0 10px;}
+.resource-box .text .btn{margin-top:14px;}
 
 /* Contact */
 .contact-grid{

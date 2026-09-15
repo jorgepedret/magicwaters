@@ -12,6 +12,7 @@
   --ink-soft:#4a4f58;
   --serif: Georgia, "Iowan Old Style", "Palatino Linotype", Palatino, serif;
   --sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  --heading: "Poppins", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
 }
 
 *{box-sizing:border-box;}
@@ -67,7 +68,8 @@ nav.main-nav a:hover{color:var(--water);}
 .hero-image{flex:0 0 300px;max-width:300px;}
 .hero-image img{border-radius:50%;box-shadow:0 0 0 6px rgba(255,255,255,0.06);}
 .hero h1{
-  font-family:var(--serif);
+  font-family:var(--heading);
+  font-weight:600;
   font-size:2.6rem;
   margin:0 0 12px;
   line-height:1.15;
@@ -92,7 +94,8 @@ nav.main-nav a:hover{color:var(--water);}
 section{padding:72px 0;}
 section.alt{background:var(--sage-bg);}
 h2{
-  font-family:var(--serif);
+  font-family:var(--heading);
+  font-weight:600;
   font-size:1.9rem;
   margin:0 0 8px;
   color:var(--navy);
@@ -154,7 +157,7 @@ blockquote.voice{
 .element-card .dot{
   width:14px;height:14px;border-radius:50%;background:var(--dot);margin-bottom:14px;
 }
-.element-card h3{margin:0 0 8px;font-size:1.05rem;}
+.element-card h3{font-family:var(--heading);font-weight:600;margin:0 0 8px;font-size:1.05rem;}
 .element-card p{margin:0;color:var(--ink-soft);font-size:0.96rem;}
 
 .resource-box{
@@ -184,7 +187,7 @@ footer{
 }
 footer .wrap{display:flex;flex-direction:column;gap:14px;}
 footer .foot-top{display:flex;justify-content:space-between;flex-wrap:wrap;gap:14px;align-items:center;}
-footer .foot-brand{font-family:var(--serif);color:#fff;font-size:1.2rem;}
+footer .foot-brand{font-family:var(--heading);font-weight:600;color:#fff;font-size:1.2rem;}
 footer .land-ack{max-width:60ch;color:#9aa3ad;font-size:0.85rem;line-height:1.6;}
 footer .foot-links a{margin-left:16px;text-decoration:none;color:#c9cfd8;font-size:0.85rem;}
 footer .foot-links a:hover{color:#fff;}

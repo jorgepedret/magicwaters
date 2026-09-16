@@ -1,2 +1,11 @@
 .DS_Store
 assets/.DS_Store
+assets/photos/.DS_Store
+
+# Raw, full-size phone photos: keep locally only.
+# The optimized, resized copies actually used on the site live in assets/photos/web/ and are tracked.
+assets/photos/*.jpg
+assets/photos/*.jpeg
+assets/photos/*.JPG
+assets/photos/*.HEIC
+!assets/photos/web/
